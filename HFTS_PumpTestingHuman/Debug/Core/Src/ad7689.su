@@ -1,0 +1,7 @@
+../Core/Src/ad7689.c:7:6:AD7689_DWT_Init	4	static
+../Core/Src/ad7689.c:14:6:AD7689_DelayNs	40	static,ignoring_inline_asm
+../Core/Src/ad7689.c:23:17:cfg_for_channel	16	static
+../Core/Src/ad7689.c:29:19:AD7689_ReadRaw	40	static
+../Core/Src/ad7689.c:47:19:AD7689_ReadNextChannel	24	static
+../Core/Src/ad7689.c:59:19:AD7689_ReadChannelRaw	24	static
+../Core/Src/ad7689.c:65:19:AD7689_Init	24	static

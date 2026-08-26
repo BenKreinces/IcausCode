@@ -1,0 +1,2 @@
+../Core/Src/ad7124_stm32_hal.c:9:13:ad7124_stm32_xfer	6
+../Core/Src/ad7124_stm32_hal.c:21:6:ad7124_stm32_hal_init	6

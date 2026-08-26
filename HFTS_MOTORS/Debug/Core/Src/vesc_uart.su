@@ -1,0 +1,13 @@
+../Core/Src/vesc_uart.c:20:17:vesc_crc16_ccitt	24	static
+../Core/Src/vesc_uart.c:37:13:vesc_write_be_i32	16	static
+../Core/Src/vesc_uart.c:45:16:vesc_read_be_i16	32	static
+../Core/Src/vesc_uart.c:53:16:vesc_read_be_i32	32	static
+../Core/Src/vesc_uart.c:65:14:vesc_decode_f16_scaled	32	static
+../Core/Src/vesc_uart.c:71:14:vesc_decode_f32_scaled	32	static
+../Core/Src/vesc_uart.c:78:13:vesc_send_payload	168	static
+../Core/Src/vesc_uart.c:104:13:vesc_decode_get_values	56	static
+../Core/Src/vesc_uart.c:162:6:vesc_init	24	static
+../Core/Src/vesc_uart.c:171:6:vesc_set_rpm	24	static
+../Core/Src/vesc_uart.c:179:6:vesc_request_values	24	static
+../Core/Src/vesc_uart.c:186:6:vesc_send_alive	24	static
+../Core/Src/vesc_uart.c:193:6:vesc_process_rx_byte	16	static

@@ -1,0 +1,16 @@
+PLOT_FIELDS = {
+    "LNG Tank PT": lambda s: s.lng_tank_pressure_psi,
+    "LOX Tank PT": lambda s: s.lox_tank_pressure_psi,
+    "LNG Line PT": lambda s: s.lng_line_pressure_psi,
+    "LOX Line PT": lambda s: s.lox_line_pressure_psi,
+    "LNG Pump RPM": lambda s: s.lng_pump_rpm,
+    "LOX Pump RPM": lambda s: s.lox_pump_rpm,
+    "LNG Pump Power": lambda s: s.lng_pump_power_kw,
+    "LOX Pump Power": lambda s: s.lox_pump_power_kw,
+    "LNG Pump Voltage": lambda s: s.lng_pump_voltage_v,
+    "LOX Pump Voltage": lambda s: s.lox_pump_voltage_v,
+    "LNG Pump Current": lambda s: s.lng_pump_current_a,
+    "LOX Pump Current": lambda s: s.lox_pump_current_a,
+    "LNG Tank Level": lambda s: s.lng_tank_level * 100.0,
+    "LOX Tank Level": lambda s: s.lox_tank_level * 100.0,
+}

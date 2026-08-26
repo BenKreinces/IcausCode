@@ -1,0 +1,5 @@
+../Core/Src/ksz8081_diag.c:68:13:mdio_read_c22_retry	6
+../Core/Src/ksz8081_diag.c:92:13:mdio_read_c22_raw	4
+../Core/Src/ksz8081_diag.c:111:13:ksz8081_id_match	3
+../Core/Src/ksz8081_diag.c:124:13:wait_for_phy_reset_clear	4
+../Core/Src/ksz8081_diag.c:142:5:ksz8081_strap_check	11

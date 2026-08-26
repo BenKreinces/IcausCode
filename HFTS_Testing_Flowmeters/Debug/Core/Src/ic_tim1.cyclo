@@ -1,0 +1,13 @@
+../Core/Src/ic_tim1.c:28:17:tim1_kernel_clk_hz	2
+../Core/Src/ic_tim1.c:39:10:IC_TIM1_GetTickHz	1
+../Core/Src/ic_tim1.c:45:24:delta16	1
+../Core/Src/ic_tim1.c:50:19:get_meas	5
+../Core/Src/ic_tim1.c:62:17:get_hal_channel	5
+../Core/Src/ic_tim1.c:74:13:ic_reset	1
+../Core/Src/ic_tim1.c:85:13:clear_ch_flags	5
+../Core/Src/ic_tim1.c:110:6:IC_TIM1_Start	9
+../Core/Src/ic_tim1.c:137:6:IC_TIM1_Stop	4
+../Core/Src/ic_tim1.c:152:6:HAL_TIM_IC_CaptureCallback	8
+../Core/Src/ic_tim1.c:209:7:IC_TIM1_GetFreqHz	3
+../Core/Src/ic_tim1.c:216:7:IC_TIM1_GetPeriodS	3
+../Core/Src/ic_tim1.c:223:10:IC_TIM1_GetPeriodTicks	2

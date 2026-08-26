@@ -1,0 +1,17 @@
+../Core/Src/main.c:120:13:ETH_PHY_ResetPulse	8	static
+../Core/Src/main.c:128:26:ETH_MDIO_MinimalInit	32	static
+../Core/Src/main.c:170:13:ETH_PHY_ScanAll	16	static
+../Core/Src/main.c:245:5:main	8	static
+../Core/Src/main.c:332:6:SystemClock_Config	120	static
+../Core/Src/main.c:390:6:PeriphCommonClock_Config	200	static
+../Core/Src/main.c:417:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:465:13:MX_SPI1_Init	8	static
+../Core/Src/main.c:513:13:MX_SPI2_Init	8	static
+../Core/Src/main.c:561:13:MX_SPI4_Init	8	static
+../Core/Src/main.c:609:13:MX_SPI5_Init	8	static
+../Core/Src/main.c:657:13:MX_TIM1_Init	56	static
+../Core/Src/main.c:730:13:MX_UART8_Init	8	static
+../Core/Src/main.c:778:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:826:13:MX_GPIO_Init	64	static
+../Core/Src/main.c:915:6:MPU_Config	24	static
+../Core/Src/main.c:957:6:Error_Handler	4	static,ignoring_inline_asm

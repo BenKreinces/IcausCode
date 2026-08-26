@@ -1,0 +1,8 @@
+../Core/Src/ad7124.c:44:13:ad7124_write_reg	5
+../Core/Src/ad7124.c:54:13:ad7124_read_reg	8
+../Core/Src/ad7124.c:66:6:ad7124_swo_init	1
+../Core/Src/ad7124.c:78:6:ad7124_init	7
+../Core/Src/ad7124.c:106:6:ad7124_read_data	4
+../Core/Src/ad7124.c:115:7:ad7124_code_to_voltage	1
+../Core/Src/ad7124.c:122:6:ad7124_swo_send_u32	3
+../Core/Src/ad7124.c:137:6:ad7124_swo_print	5
