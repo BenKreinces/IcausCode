@@ -1,3 +1,0 @@
-../Core/Src/mcp23s17_stm32_hal.c:12:16:stm32_spi_txrx_impl	32	static
-../Core/Src/mcp23s17_stm32_hal.c:21:13:stm32_cs_impl	24	static
-../Core/Src/mcp23s17_stm32_hal.c:27:6:mcp23s17_stm32_hal_init	24	static

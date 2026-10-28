@@ -1,9 +1,0 @@
-../Core/Src/tim1_freq_capture.c:24:17:tim1_get_timclk_hz	1
-../Core/Src/tim1_freq_capture.c:29:17:tim1_get_counter_hz	1
-../Core/Src/tim1_freq_capture.c:35:13:process_captures	5
-../Core/Src/tim1_freq_capture.c:57:6:tim1_freq_capture_set_dma_channel	2
-../Core/Src/tim1_freq_capture.c:63:6:start_tim1	2
-../Core/Src/tim1_freq_capture.c:69:6:start_ch1	1
-../Core/Src/tim1_freq_capture.c:78:7:get_freq_hz	2
-../Core/Src/tim1_freq_capture.c:84:6:HAL_TIM_IC_CaptureHalfCpltCallback	3
-../Core/Src/tim1_freq_capture.c:90:6:HAL_TIM_IC_CaptureCpltCallback	3

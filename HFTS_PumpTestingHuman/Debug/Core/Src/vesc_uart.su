@@ -1,9 +1,0 @@
-../Core/Src/vesc_uart.c:26:17:vesc_crc16	24	static
-../Core/Src/vesc_uart.c:42:13:vesc_send_frame	96	static
-../Core/Src/vesc_uart.c:67:6:VESC_UART_Init	16	static
-../Core/Src/vesc_uart.c:72:16:buf_get_int16	24	static
-../Core/Src/vesc_uart.c:79:16:buf_get_int32	24	static
-../Core/Src/vesc_uart.c:89:14:buf_get_float16_scaled	32	static
-../Core/Src/vesc_uart.c:95:14:buf_get_float32_scaled	32	static
-../Core/Src/vesc_uart.c:101:13:vesc_try_parse_values	32	static
-../Core/Src/vesc_uart.c:147:6:VESC_UART_Poll	160	static

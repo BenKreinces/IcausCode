@@ -1,0 +1,9 @@
+../Core/Src/ad7124-8.c:17:23:ad7124_cmd	16	static
+../Core/Src/ad7124-8.c:23:20:cs_low	16	static
+../Core/Src/ad7124-8.c:24:20:cs_high	16	static
+../Core/Src/ad7124-8.c:26:6:ad7124_reset	32	static
+../Core/Src/ad7124-8.c:38:19:ad7124_read_reg	32	static
+../Core/Src/ad7124-8.c:56:19:ad7124_write_reg	32	static
+../Core/Src/ad7124-8.c:71:6:ad7124_data_ready	24	static
+../Core/Src/ad7124-8.c:84:19:ad7124_read_data	32	static
+../Core/Src/ad7124-8.c:104:19:ad7124_init	24	static

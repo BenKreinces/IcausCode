@@ -1,0 +1,7 @@
+../Core/Src/ad7689.c:7:6:AD7689_DWT_Init	1
+../Core/Src/ad7689.c:14:6:AD7689_DelayNs	2
+../Core/Src/ad7689.c:23:17:cfg_for_channel	2
+../Core/Src/ad7689.c:29:19:AD7689_ReadRaw	3
+../Core/Src/ad7689.c:47:19:AD7689_ReadNextChannel	2
+../Core/Src/ad7689.c:59:19:AD7689_ReadChannelRaw	2
+../Core/Src/ad7689.c:65:19:AD7689_Init	6

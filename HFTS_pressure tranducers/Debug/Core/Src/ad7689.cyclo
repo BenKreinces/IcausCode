@@ -1,6 +1,0 @@
-../Core/Src/ad7689.c:5:6:AD7689_DWT_Init	1
-../Core/Src/ad7689.c:15:6:AD7689_DelayNs	2
-../Core/Src/ad7689.c:24:6:AD7689_DelayUs	2
-../Core/Src/ad7689.c:36:19:AD7689_ReadRaw	3
-../Core/Src/ad7689.c:70:19:AD7689_ReadIN0_Raw	1
-../Core/Src/ad7689.c:79:19:AD7689_Init_IN0_IntRef4096	3

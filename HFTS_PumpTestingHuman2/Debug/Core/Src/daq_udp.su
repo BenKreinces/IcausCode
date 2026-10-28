@@ -1,5 +1,0 @@
-../Core/Src/daq_udp.c:30:13:daq_udp_lwip_recv_cb	104	static
-../Core/Src/daq_udp.c:54:6:DAQ_UDP_Init	16	static
-../Core/Src/daq_udp.c:68:6:DAQ_UDP_Process	8	static
-../Core/Src/daq_udp.c:75:6:DAQ_UDP_SendPacket	24	static
-../Core/Src/daq_udp.c:90:6:DAQ_UDP_SetRecvCallback	16	static

@@ -1,8 +1,0 @@
-../LWIP/Target/eth_custom_phy_interface.c:66:10:USER_PHY_RegisterBusIO	5
-../LWIP/Target/eth_custom_phy_interface.c:82:9:USER_PHY_Init	9
-../LWIP/Target/eth_custom_phy_interface.c:133:9:USER_PHY_DeInit	4
-../LWIP/Target/eth_custom_phy_interface.c:159:9:USER_PHY_SoftwareReset	6
-../LWIP/Target/eth_custom_phy_interface.c:211:9:USER_PHY_GetLinkState	11
-../LWIP/Target/eth_custom_phy_interface.c:284:9:USER_PHY_SetLinkState	7
-../LWIP/Target/eth_custom_phy_interface.c:333:9:USER_PHY_EnableLoopbackMode	3
-../LWIP/Target/eth_custom_phy_interface.c:363:9:USER_PHY_DisableLoopbackMode	3

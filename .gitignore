@@ -1,0 +1,17 @@
+# STM32CubeIDE local state and generated firmware build products
+IcarusSecondTry/.metadata/
+IcarusSecondTry/Debug/
+IcarusSecondTry/Release/
+IcarusSecondTry/**/*.elf
+IcarusSecondTry/**/*.hex
+IcarusSecondTry/**/*.bin
+IcarusSecondTry/**/*.map
+IcarusSecondTry/**/*.list
+IcarusSecondTry/**/*.o
+IcarusSecondTry/**/*.d
+IcarusSecondTry/**/*.su
+IcarusSecondTry/**/*.cyclo
+
+# Python execution artifacts
+__pycache__/
+*.py[cod]

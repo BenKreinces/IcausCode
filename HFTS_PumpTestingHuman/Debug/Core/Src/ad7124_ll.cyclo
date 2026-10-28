@@ -1,8 +1,0 @@
-../Core/Inc/ad7124_ll.h:32:23:ad7124_ll_cmd_byte	1
-../Core/Src/ad7124_ll.c:10:13:cs_assert	1
-../Core/Src/ad7124_ll.c:15:13:cs_deassert	1
-../Core/Src/ad7124_ll.c:20:6:ad7124_ll_cs_assert	2
-../Core/Src/ad7124_ll.c:25:6:ad7124_ll_cs_deassert	2
-../Core/Src/ad7124_ll.c:30:19:ad7124_reset	2
-../Core/Src/ad7124_ll.c:43:19:ad7124_write_reg	6
-../Core/Src/ad7124_ll.c:58:19:ad7124_read_reg	6

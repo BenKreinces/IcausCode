@@ -1,0 +1,9 @@
+../Core/Src/vesc_uart.c:24:17:vesc_crc16	4
+../Core/Src/vesc_uart.c:40:13:vesc_send_frame	6
+../Core/Src/vesc_uart.c:65:6:VESC_UART_Init	1
+../Core/Src/vesc_uart.c:70:16:buf_get_int16	1
+../Core/Src/vesc_uart.c:77:16:buf_get_int32	1
+../Core/Src/vesc_uart.c:87:14:buf_get_float16_scaled	1
+../Core/Src/vesc_uart.c:93:14:buf_get_float32_scaled	1
+../Core/Src/vesc_uart.c:99:13:vesc_try_parse_values	5
+../Core/Src/vesc_uart.c:132:6:VESC_UART_Poll	8
