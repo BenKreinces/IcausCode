@@ -72,7 +72,10 @@ UART_HandleTypeDef huart8;
 osThreadId_t defaultTaskHandle;
 const osThreadAttr_t defaultTask_attributes = {
   .name = "defaultTask",
-  .stack_size = 128 * 4,
+  /* MX_LWIP_Init() synchronously initializes ETH and emits the first ARP
+   * packet through this task. The CubeMX default 512-byte stack is not
+   * sufficient for that call chain. */
+  .stack_size = 2048U,
   .priority = (osPriority_t) osPriorityNormal,
 };
 /* Definitions for HeartbeatTask */
@@ -348,6 +351,10 @@ int main(void)
   HeartbeatTaskHandle = osThreadNew(StartHeartbeatTask, NULL, &HeartbeatTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
+  if ((defaultTaskHandle == NULL) || (HeartbeatTaskHandle == NULL))
+  {
+    Error_Handler();
+  }
 #if defined(HAL_SPI_MODULE_ENABLED)
   load_cell_acquisition_task_handle = osThreadNew(StartLoadCellAcquisitionTask,
                                                    NULL,
@@ -929,6 +936,22 @@ void Error_Handler(void)
   {
   }
   /* USER CODE END Error_Handler_Debug */
+}
+
+/* FreeRTOS invokes these hooks before corrupted task state can continue into
+ * application code. They intentionally avoid UART/logging because either hook
+ * can be reached with allocator or scheduler state already compromised. */
+void vApplicationMallocFailedHook(void)
+{
+  Error_Handler();
+}
+
+void vApplicationStackOverflowHook(TaskHandle_t task,
+                                   signed char *task_name)
+{
+  (void)task;
+  (void)task_name;
+  Error_Handler();
 }
 #ifdef USE_FULL_ASSERT
 /**

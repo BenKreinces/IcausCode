@@ -68,7 +68,10 @@
 #define configTICK_RATE_HZ                       ((TickType_t)1000)
 #define configMAX_PRIORITIES                     ( 56 )
 #define configMINIMAL_STACK_SIZE                 ((uint16_t)128)
-#define configTOTAL_HEAP_SIZE                    ((size_t)15360)
+/* LwIP creates its TCP/IP, RX, and link-management threads after the
+ * application threads. Reserve enough RTOS heap for those control blocks,
+ * their stacks, and newlib reentrancy state. */
+#define configTOTAL_HEAP_SIZE                    ((size_t)24576)
 #define configMAX_TASK_NAME_LEN                  ( 16 )
 #define configUSE_TRACE_FACILITY                 1
 #define configUSE_16_BIT_TICKS                   0
@@ -154,6 +157,8 @@ See http://www.FreeRTOS.org/RTOS-Cortex-M3-M4.html. */
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
 /* USER CODE BEGIN 1 */
+#define configUSE_MALLOC_FAILED_HOOK              1
+#define configCHECK_FOR_STACK_OVERFLOW            2
 #define configASSERT( x ) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
 /* USER CODE END 1 */
 
